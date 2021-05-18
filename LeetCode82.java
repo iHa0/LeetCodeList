@@ -35,71 +35,23 @@ public class LeetCode82 {
         }
         return dummyHead.next;
     }
-    //方法二还需要优化，明天完成
+    //LeetCode官方解法
     public ListNode deleteDuplicates2(ListNode head) {
-        int flag ,temp = -200,nextVal;
-        ListNode cur = head , pre = head , p = head;
-        if (head == null){
-            return null;
-        }
-        if (head.next == null){
+        ListNode dummy = new ListNode(-101);
+        if (head == null || head.next == null)
             return head;
-        }
-        if (head.next!=null && head.next.next== null){
-            if (head.next.val == head.val){
-                return null;
-            }
-        }
-        p = p.next;
-        if (p.next == null){
-            nextVal = -200;
-        }else {
-            nextVal = p.val;
-        }
-
-        if (head.val == nextVal){
-            flag = 1;
-        }else {
-            flag = 0;
-        }
-//        System.out.println(flag);
-        while ( p != null ){
-            if (flag == 1){
-                if (cur.val != p.val){
-                    flag = 0;
-                    head = p.next;
-                    continue;
-//                    head = p;
+        dummy.next = head;
+        ListNode cur = dummy;
+        while (cur.next != null && cur.next.next != null) {
+            if (cur.next.val == cur.next.next.val){
+                int x = cur.next.val;
+                while (cur.next != null && cur.next.val == x){
+                    cur.next = cur.next.next;
                 }
-                head = p;
-                p = p.next;
-
-
-                cur = head;
             }else {
-                if (p.val == temp){
-                    if (p.next == null){
-                        cur.next = null;
-                    }
-                    p = p.next;
-                    continue;
-                }
-                if (p.next == null){
-                    nextVal = -200;
-                }else {
-                    nextVal = p.next.val;
-                }
-                if (cur.val != p.val && p.val != nextVal) {
-                    cur.next = p;
-                    cur = p;
-                    p = p.next;
-                }else if (cur.val != p.val && p.val == nextVal){
-                    temp = p.val;
-                    p = p.next;
-                }
+                cur = cur.next;
             }
-
         }
-        return head;
+        return dummy.next;
     }
 }
