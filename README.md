@@ -20,7 +20,8 @@
 #### **2021.7.3 更新**  
 暑假开始了，希望能够拿下动态规划的题目，加油💪🏻  
 #### **2021.7.10 突破100题纪念**  
-[![RzDqzT.png](https://z3.ax1x.com/2021/07/10/RzDqzT.png)](https://imgtu.com/i/RzDqzT)  
+[![RzDqzT.md.png](https://z3.ax1x.com/2021/07/10/RzDqzT.md.png)](https://imgtu.com/i/RzDqzT)  
+
 
 ***
 
