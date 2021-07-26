@@ -23,6 +23,9 @@
 [![RzDqzT.md.png](https://z3.ax1x.com/2021/07/10/RzDqzT.md.png)](https://imgtu.com/i/RzDqzT)  
 #### **2021.7.13 更新**
 Emmmmmmm，🤔动态规划做吐了，硬着头皮刷DP啊0.0  
+#### **2021.7.26 更新**
+最近在准备一个面试，所以每天只做一到两题，等面试完会多做的💪🏻  
+
 
 ***
 
