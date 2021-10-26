@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class BeikeInterviews3 {
+class BeikeInterviews3 {
     public String NS_String(String s, int k){
         int[] letter = new int[26];
         int len = s.length(), j = 0, m = 0, r = 0, l = 0;
