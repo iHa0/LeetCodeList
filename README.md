@@ -19,7 +19,7 @@
 ### **2021.7.3 更新**  
 暑假开始了，希望能够拿下动态规划的题目，加油💪🏻  
 ### **2021.7.10 突破 101 题纪念**  
-<img src="https://z3.ax1x.com/2021/07/10/RzDqzT.md.png" width="300px">
+<img src="https://z3.ax1x.com/2021/07/10/RzDqzT.md.png" width="388px">
 
 ### **2021.7.13 更新**
 Emmmmmmm，🤔动态规划做吐了，硬着头皮刷DP啊0.0  
