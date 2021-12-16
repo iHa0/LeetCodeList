@@ -1,8 +1,8 @@
-## LeetCode Top100 题单 🗂
+## 🗂 LeetCode Top100 题单
 
 本目录是刷 LeetCode 中 Top100 创建的，以后会更新 Top200 的题目
 
-### 进度表 📅
+### 📅 进度表
 
 |  ⏰ 记录时间   |  ✏️ 完成题目数  | 🗓 完成百分比 |
 |  :----:  | :----:  | :----: |
@@ -16,6 +16,6 @@
 
 接下来会花几天时间将 Top100 中遇到的比较生疏的问题再做进一步的归纳和总结   
 
-### 接下来的计划   
-LeetCode 中的 [Top 面试](https://leetcode-cn.com/problem-list/2ckc81c/) 题
+### 🧑‍💻 接下来的计划   
+LeetCode 中的 [Top 面试](https://leetcode-cn.com/problem-list/2ckc81c/)
 
