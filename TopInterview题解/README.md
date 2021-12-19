@@ -1,7 +1,7 @@
 ## 🗂 LeetCode 精选 Top 面试题
 
-#### 本目录是刷 LeetCode 中 精选 [Top 面试题](https://leetcode-cn.com/problem-list/2ckc81c/) 创建的，以后会更新 Top200 的题解   
-Top 面试 一共有 145 题，在命名方面，斜杠```/```前面的数字代表 LeetCode 题号，斜杠```/```后面的代表一共的题目数量
+#### 本目录是刷 LeetCode 中 [精选 Top 面试题](https://leetcode-cn.com/problem-list/2ckc81c/) 创建的，以后会更新 Top200 的题解   
+精选 Top 面试 一共有 145 题，在命名方面，斜杠```/```前面的数字代表 LeetCode 题号，斜杠```/```后面的代表一共的题目数量   
 
 ###  📅 进度表
 
