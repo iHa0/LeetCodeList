@@ -58,6 +58,8 @@ Emmmmmmm，🤔动态规划做吐了，硬着头皮刷DP啊0.0
 ### 🎉 2021.12.16 Top100 完成   
 <img src="https://s2.loli.net/2021/12/16/QdPuXKkJCSBNvEs.png" width="388px">   
 
+### 🎉 2022.1.26 《LeetCode 精选 TOP 面试题》 完成   
+
 ***
 
 ## **漏答记录**  
