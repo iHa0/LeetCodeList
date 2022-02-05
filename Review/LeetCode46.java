@@ -1,0 +1,31 @@
+package Review;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class LeetCode46 {
+    int len;
+    int[] nums;
+    List<List<Integer>> res = new LinkedList<>();
+    public List<List<Integer>> permute(int[] nums) {
+        this.nums = nums;
+        this.len = nums.length;
+        LinkedList<Integer> list = new LinkedList<>();
+        back(list);
+        return res;
+    }
+
+    private void back(LinkedList<Integer> list) {
+        if (list.size() == len){
+            res.add(new LinkedList<>(list));
+            return;
+        }
+        for (int i = 0; i < len; i++) {
+            if (list.contains(nums[i]))
+                continue;
+            list.add(nums[i]);
+            back(list);
+            list.removeLast();
+        }
+    }
+}
