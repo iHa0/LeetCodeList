@@ -1,6 +1,7 @@
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int len = nums.length;
+        if (len == 0 || k == 1) return nums;
         int[] res = new int[len - k + 1];
         LinkedList<Integer> queue = new LinkedList<>();
         for (int i = 0; i < len; i++) {
